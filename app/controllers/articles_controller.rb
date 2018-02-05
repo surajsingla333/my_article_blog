@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
 
-    http_basic_authenticate_with name: "dhhd", password: "secret",
+    http_basic_authenticate_with name: "dhhdd", password: "secret",
   expect: [:index, :show]
 
   def index
